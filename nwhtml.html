@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test1</title>
+
+</head>
+
+<body>
+	<div id="app">
+		<input type="text" v-model="name">
+
+		<h1>{{name}}</h1>
+		<button vc-on:click="sayHi('Lin')">Call me</button>
+
+		<h1>{{sayhangry}}</h1>
+		<ul>
+			<li v-for="name in myArray">{{name}}</li>
+		</ul>
+		<table>
+			<thead>
+				<tr>
+					<th> Name</th>
+					<th>Age</th>
+					<th>Country</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr v-for="(member in members">
+					<td v-show="member.name=='Vasil'"> {{member.name}}</td>
+					<td>{{member.age}}</td>
+					<td> {{member.country}}</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>

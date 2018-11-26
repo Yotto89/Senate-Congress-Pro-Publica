@@ -1,0 +1,71 @@
+.tgifoot {
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+}
+
+
+.bodyarea {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.image1 {
+
+	width: 20%;
+	float: right;
+}
+
+.checkboxes {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+
+}
+
+#navbar {
+	display: flex;
+	margin-bottom: 2%;
+	width: 100%;
+
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+
+
+}
+h2{
+	font-size: 20px;
+	font-style: italic, bold
+}
+h3 {
+	font-size: 20px;
+	font-style: italic, bold
+}
+.texta {
+	width: 51%;
+	padding-right: 3%;
+	padding-bottom: 3%;
+}
+
+.table1 {
+	width: 49%;
+	padding-right: 3%;
+	padding-bottom: 3%;
+}
+
+
+}
+.table2 {
+	padding-right: 3%;
+	padding-bottom: 3%;
+}
